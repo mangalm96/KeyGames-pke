@@ -66,10 +66,10 @@ model1 = FastText.load_fasttext_format('wiki-news-300d-1M-subword.bin')
 
 ## import title file
 
-# with open ('semeval_TITLE_XML', 'rb') as fp:
+# with open ('semeval_title', 'rb') as fp:
 #     title_file = pickle.load(fp)
     
-# with open ('duc_title2', 'rb') as fp:
+# with open ('duc_title', 'rb') as fp:
 #     title_file = pickle.load(fp)
 
 with open ('inspec_title', 'rb') as fp:
