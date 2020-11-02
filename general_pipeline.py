@@ -6,9 +6,9 @@
 
 # general pipleine -- user page to run everything
 
-path=os.getcwd()+"/semeval_path/" # for semeval
-# path=os.getcwd()+"/inspec_path/" # for inspec
-# path=os.getcwd()+"/duc_path/" # for duc 
+path=os.getcwd()+"/data/input/semeval_input/" # for semeval
+# path=os.getcwd()+"/data/input/inspec_input/" # for inspec
+# path=os.getcwd()+"/data/input/duc_input/" # for duc 
 
 
 pos = {'NOUN', 'PROPN', 'ADJ','VERB'}
@@ -37,8 +37,8 @@ for filename in sorted(glob.glob(os.path.join(path, '*.txt')),key=numericalSort)
     for k in keyphrases_10:
         keylist1.append(k[0])
     
-    path_key1=os.getcwd()+"/semeval_keys/"
-    doc_name=filename.split("semeval_path/")[1][:-4] 
+    path_key1=os.getcwd()+"/data/output/semeval_keys/"
+    doc_name=filename.split("semeval_input/")[1][:-4] 
     
     name_of_file='{}.key.txt'.format(doc_name)            
     extracted_keyword_file1 = os.path.join(path_key1, name_of_file)
