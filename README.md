@@ -19,4 +19,20 @@ Follow along the general_pipeline.py to run the pipeline end to end from candida
 
 ## Citing this paper
 
-"KeyGames: A Game Theoretic approach to Keyphrase Extraction" at COLING 2020. 
+If you use KeyGames, please cite the following paper:
+
+```
+@inproceedings{saxena-etal-2020-keygames,
+    title = "{K}ey{G}ames: A Game Theoretic Approach to Automatic Keyphrase Extraction",
+    author = "Saxena, Arnav  and
+      Mangal, Mudit  and
+      Jain, Goonjan",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.coling-main.184",
+    pages = "2037--2048",
+}
+```
