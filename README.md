@@ -1,6 +1,6 @@
 # KeyGames: pke+
 
-This is the repository for the pke+ implementation of KeyGames and other systems from the paper "KeyGames: A Game Theoretic approach to Keyphrase Extraction" accepted at COLING 2020. 
+This is the repository for the pke+ implementation of KeyGames and other systems from the paper "KeyGames: A Game Theoretic approach to Keyphrase Extraction" published at COLING 2020. 
 
 ## Requirements
 
